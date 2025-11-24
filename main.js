@@ -1,7 +1,7 @@
 const products = [
     { name: "かわいいオリパ　ポケモンカード　ポケカ", description: "かわいいポケモンたち5枚で構成(こうせい)されたex1枚確定(かくてい)オリパ！", price: { jpy: 40, ta: 20000, gol: 60000 } },
-    { name: "高級オリパ　ポケモンカード　ポケカ", description: "ex以上(いじょう)のカード3枚で構成(こうせい)された高級(こうきゅう)なオリパです。", price: { jpy: 150, ta: 50000, gol: 150000 } },
-    { name: "なっちゃん　オレンジ味　缶", description: "ウタウタ星でも大人気のあのジュースがついにShuffleMartの商品に！いますぐゲットしよう！", price: { jpy: 250, ta: 250000, gol: 750000 } }
+    { name: "高級オリパ　ポケモンカード　ポケカ", description: "ex以上ウム(いじょう)のカード3枚で構成(こうせい)された高級(こうきゅう)なオリパです。", price: { jpy: 150, ta: 50000, gol: 150000 } },
+    { name: "ShuffleMart特別パック　ダークスタチウム　ポケモンカード　ポケカ", description: "ShuffleMart初のオリジナル商品！悪タイプ、超タイプで構成(こうせい)されたオリパです。いますぐゲットしよう！", price: { jpy: 15, ta: 7500, gol: 12500 } }
 ];
 
 function searchProducts(keyword) {
@@ -99,5 +99,6 @@ form.addEventListener("submit", function(e) {
     const keyword = document.getElementById("searchInput").value;
     searchProducts(keyword);
 });
+
 
 searchProducts("");
