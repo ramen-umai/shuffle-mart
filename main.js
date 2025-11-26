@@ -1,7 +1,9 @@
 const products = [
     { name: "かわいいオリパ　ポケモンカード　ポケカ", description: "かわいいポケモンたち5枚で構成(こうせい)されたex1枚確定(かくてい)オリパ！", price: { jpy: 40, ta: 20000, gol: 60000 } },
     { name: "高級オリパ　ポケモンカード　ポケカ", description: "ex以上ウム(いじょう)のカード3枚で構成(こうせい)された高級(こうきゅう)なオリパです。", price: { jpy: 150, ta: 50000, gol: 150000 } },
-    { name: "ShuffleMart特別パック　ダークスタチウム　ポケモンカード　ポケカ", description: "ShuffleMart初のオリジナル商品！悪タイプ、超タイプで構成(こうせい)されたオリパです。いますぐゲットしよう！", price: { jpy: 15, ta: 7500, gol: 12500 } }
+    { name: "ShuffleMart特別パック　ダークスタチウム　ポケモンカード　ポケカ", description: "ShuffleMart初のオリジナル商品！悪タイプ、超タイプで構成(こうせい)されたオリパです。いますぐゲットしよう！", price: { jpy: 15, ta: 7500, gol: 12500 } },
+    { name: "緑茶　PURE GREEN　激安", description: "緑茶を激安で販売！味もいいですよ！！", price: { jpy: 65, ta: 32500, gol: 97500 } },
+    { name: "期間限定スペシャルオリパ　期間限定　ex確定　ポケモンカード　ポケカ", description: "ShuffleMart初のイベント開催！！期間限定オリパ発売決定！在庫は限られている...急いでいますぐゲット！！", price: { jpy: 200, ta: 100000, gol: 300000 } }
 ];
 
 function searchProducts(keyword) {
@@ -102,3 +104,4 @@ form.addEventListener("submit", function(e) {
 
 
 searchProducts("");
+
