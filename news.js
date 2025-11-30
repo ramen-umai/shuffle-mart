@@ -8,6 +8,7 @@
   
       container.innerHTML += `
         <div class="col-md-4">
+        <a href="news-detail.html?newsid=${item.id}" class="text-decoration-none">
           <div class="card shadow-sm h-100">
             ${item.image
               ? `<img src="${item.image}" class="card-img-top" alt="${item.title}">`
@@ -23,17 +24,14 @@
                 <i class="bi ${icon}"></i> ${item.category}
               </div>
               <p class="card-text">${item.body}</p>
-              <h5 class="card-title">
-                <a href="news-detail.html?newsid=${item.id}" class="text-decoration-none">
-                    ${item.title}
-                </a>
-              </h5>
             </div>
           </div>
+          </a>
         </div>
       `;
     });
   }
   
   renderNews(newsData);
+
   
